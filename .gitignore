@@ -1,0 +1,28 @@
+# Pet2Desktop — .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated assets (user pets)
+scripts/assets/*
+!scripts/assets/.gitkeep
+
+# Virtual env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# rembg model (downloaded at runtime)
+~/.u2net/
+
+# Skill packaging
+*.skill
